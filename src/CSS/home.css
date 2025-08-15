@@ -1,0 +1,45 @@
+.movies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  padding: 16px;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin: 20px 0;
+}
+
+.search-input {
+  flex: 1;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  padding: 10px 15px;
+  outline: none;
+  transition: border-color 0.3s ease;
+  font-size: 1rem;
+
+}
+
+.search-input:focus {
+  border-color: #61dafb;
+  box-shadow: 0 0 5px #61dafb;
+}
+
+
+.search-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #61dafb;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  color: #fff;
+}
+
+.search-button:hover {
+  background-color: #21a1f1;
+}

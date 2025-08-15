@@ -1,0 +1,36 @@
+
+.favorites-container {
+  padding: 16px 32px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* modern system font stack */
+  
+}
+
+.favorites-title {
+  font-size: 2rem;
+  color: #444;
+  margin-bottom: 24px;
+  font-weight: 100;
+}
+
+.favorites-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin-top: 16px;
+}
+
+
+.favorites-empty {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.favorites-empty h2 {
+  font-size: 2rem;
+  color: #222;
+  
+}
+
+.favorites-empty p {
+  color: #444;
+}
