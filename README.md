@@ -2,6 +2,8 @@
 
 MovieMate is a movie app built with React, designed as a learning project to explore React fundamentals, working with APIs, and JavaScript. The app allows users to browse movies, view details, and manage a list of favorites.
 
+App is deployed and available for anyone to test. You can try it here: https://leafy-otter-44c2ee.netlify.app/
+
 ## Features
 - Browse a list of movies fetched from an external API
 - View movie details in a card layout
