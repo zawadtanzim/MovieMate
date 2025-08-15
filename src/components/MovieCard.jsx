@@ -1,5 +1,5 @@
 
-import "../CSS/MovieCard.CSS"
+import "../CSS/movieCard.css"
 
 import { useMovieContext } from "../context/MovieContext";
 

@@ -1,4 +1,4 @@
-import "../CSS/home.css";
+import "../CSS/home.css"
 
 
 import MovieCard from "../components/MovieCard";
